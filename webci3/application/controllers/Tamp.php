@@ -3,21 +3,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Tamp extends CI_Controller {
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
+	public function __construct()
+	{
+		parent::__construct();
+		$this->load->model('Lok_Model');
+		// $this->load->model('Cir_Model');
+		$this->load->library('form_validation');
+	}
+
 	public function index()
 	{
 		$this->load->view('template/head');
@@ -26,8 +19,25 @@ class Tamp extends CI_Controller {
 	}
 	public function map2()
 	{
+		$data['data'] = $this->Lok_Model-> getloc();
 		$this->load->view('template/head');
 		$this->load->view('index');
-		$this->load->view('template/foot2');
+		$this->load->view('template/foot2', $data);
+	}
+	public function form()
+	{
+		$this->form_validation->set_rules('nama','nama','required');
+		$this->form_validation->set_rules('cord','cord','required');
+		
+		if($this->form_validation->run() == false){
+			$this->load->view('template/head');
+			$this->load->view('form');
+			$this->load->view('template/foot');	
+		}else{
+			$this->Lok_Model->tambahDatalokasi();
+			redirect('Tamp/form');
+		}
+		
+		
 	}
 }
