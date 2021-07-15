@@ -25,36 +25,13 @@
   -->
       <div class="logo">
         <a href="http://www.creative-tim.com" class="simple-text logo-mini">
-          CT
+          UAP
         </a>
         <a href="http://www.creative-tim.com" class="simple-text logo-normal">
-          Creative Tim
+          Sistem Informasi <br>Geografis
         </a>
       </div>
-      <div class="sidebar-wrapper">
-        <ul class="nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#0">
-              <i class="material-icons">dashboard</i>
-              <p>Dashboard</p>
-            </a>
-          </li>
-          <!-- your sidebar here -->
-          <li class="nav-item">
-            <a class="nav-link" href="<?= site_url('KodeWilayah/index') ?>">
-              <i class="material-icons">bubble_chart</i>
-              <p>Kode Wilayah</p>
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="<?= site_url('Data/index') ?>">
-              <i class="material-icons">bar_chart</i>
-              <p>Data</p>
-            </a>
-          </li>
-        </ul>
-      </div>
+      <?= $this->renderSection('sidebar') ?>
     </div>
     <div class="main-panel">
       <!-- Navbar -->
@@ -93,8 +70,8 @@
           <nav class="float-left">
             <ul>
               <li>
-                <a href="https://www.creative-tim.com">
-                  Creative Tim
+                <a href="#">
+                  Our Team
                 </a>
               </li>
             </ul>
@@ -104,7 +81,7 @@
             <script>
               document.write(new Date().getFullYear())
             </script>, made with <i class="material-icons">favorite</i> by
-            <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> for a better web.
+            <a href="#">Our Team</a>
           </div>
           <!-- your footer here -->
         </div>
