@@ -91765,6 +91765,306 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kecamatan": "Teluk Betung Timur",
+        "kode": 2,
+        "popupContent": "Jumlah Kecamatan : "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23846626281738,
+          -5.471012385998818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kecamatan": "Teluk Betung Barat",
+        "kode": 1,
+        "popupContent": "Jumlah Kecamatan : "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2259349822998,
+          -5.441449523384976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kecamatan": "Kemiling",
+        "kode": 12,
+        "popupContent": "Jumlah Kecamatan : "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.20370483398438,
+          -5.40863817149209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kecamatan": "Tanjung Karang Barat",
+        "kode": 11,
+        "popupContent": "Jumlah Kecamatan : "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23005485534668,
+          -5.416584834447957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kecamatan": "Langkapura",
+        "kode": 13,
+        "popupContent": "Jumlah Kecamatan : "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23194313049316,
+          -5.389454668300553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kecamatan": "Rajabasa",
+        "kode": 15,
+        "popupContent": "Jumlah Kecamatan : "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.23687839508057,
+          -5.369544200141823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kecamatan": "Tanjung Senang",
+        "kode": 16,
+        "popupContent": "Jumlah Kecamatan : "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.27691841125488,
+          -5.3591614446617095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kecamatan": "Labuhan Ratu",
+        "kode": 17,
+        "popupContent": "Jumlah Kecamatan : "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2585506439209,
+          -5.37121055184556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kecamatan": "Kedaton",
+        "kode": 14,
+        "popupContent": "Jumlah Kecamatan : "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.25983810424805,
+          -5.389753747616055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kecamatan": "Sukarame",
+        "kode": 18,
+        "popupContent": "Jumlah Kecamatan : "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29966354370117,
+          -5.379841326181025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kecamatan": "Way Halim",
+        "kode": 20,
+        "popupContent": "Jumlah Kecamatan : "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2753734588623,
+          -5.390351905805202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kecamatan": "Tanjung Karang Pusat",
+        "kode": 9,
+        "popupContent": "Jumlah Kecamatan : "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.24782180786133,
+          -5.4179519917361425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kecamatan": "Teluk Betung Selatan",
+        "kode": 3,
+        "popupContent": "Jumlah Kecamatan : "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2556324005127,
+          -5.443585617167866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kecamatan": "Teluk Betung Utara",
+        "kode": 8,
+        "popupContent": "Jumlah Kecamatan : "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2629280090332,
+          -5.433930412939695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kecamatan": "Enggal",
+        "kode": 10,
+        "popupContent": "Jumlah Kecamatan : "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.26498794555664,
+          -5.421882551702391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kecamatan": "Tanjung Karang Timur",
+        "kode": 6,
+        "popupContent": "Jumlah Kecamatan : "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.26490211486816,
+          -5.411201622564455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kecamatan": "Kedamaian",
+        "kode": 7,
+        "popupContent": "Jumlah Kecamatan : "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28687477111816,
+          -5.41555946445181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kecamatan": "Sukabumi",
+        "kode": 19,
+        "popupContent": "Jumlah Kecamatan : "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31734466552734,
+          -5.421711658322852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kecamatan": "Bumi Waras",
+        "kode": 4,
+        "popupContent": "Jumlah Kecamatan : "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28498649597168,
+          -5.441534967281958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kecamatan": "Panjang",
+        "kode": 5,
+        "popupContent": "Jumlah Kecamatan : "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32361030578613,
+          -5.475455233485698
+        ]
+      }
     }
   ]
 }

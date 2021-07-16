@@ -14,9 +14,8 @@ class Data extends BaseController
         $data = $dataModel->select('*')
                 ->join('master_data', 'data.id_master_data=master_data.id')
                 ->join('kode_wilayah', 'data.kode_wilayah=kode_wilayah.kode_wilayah')
-                ->orderBy('data.id_master_data','asc')
+                ->orderBy('data.id','asc')
                 ->get();
-                
 		return view('data/index',[
             'data'=> $data,
         ]);
@@ -70,5 +69,40 @@ class Data extends BaseController
         return view('data/import');
     } 
 	//--------------------------------------------------------------------
+    public function edit($id){
+        $data = new \App\Models\DataModel();
+        
+        $hasil = $data->select('*')
+                ->where('kode_wilayah',$id)
+                ->first();
+        $dataMaster = new \App\Models\MasterDataModel();
+        $namaData = $dataMaster->select('*')->where('id',$hasil->id_master_data)->first()->nama;
+        return view('data/edit',[
+            'id' => $hasil->id,
+            'namaData' =>$namaData,
+            'kode_wilayahData' => $hasil->kode_wilayah,
+            'nilaiData' => $hasil->nilai,
+        ]);
+    }
+    public function update($id){
+        if($this->request->getPost()){
+            $data = new \App\Models\DataModel();
+            $kode_wilayah=$this->request->getPost('kode_wilayah');
+            $nilai=$this->request->getPost('nilai');
+            $update=[
+                'kode_wilayah' => $kode_wilayah,
+                'nilai' => $nilai
+            ];
+            $data->update($id,$update);
+            return redirect()->to(site_url('Data/index'));
+        }
+        return view('data/edit');
+    }
 
+    public function hapus($id){
+        $data = new \App\Models\DataModel();
+        $hasil = $data->where('kode_wilayah',$id)->first()->id;
+        $data->delete($hasil);
+        return redirect()->to(site_url('Data/index'));
+    }
 }
